@@ -1,0 +1,11 @@
+#!/bin/bash
+set -e
+
+echo "Running Gradescope autograder..."
+
+# (Optional) Install any additional dependencies or set up a virtual environment here
+
+# Run the autograder Python script that runs pytest and produces results.json
+python3 autograder.py
+
+echo "Finished grading."
